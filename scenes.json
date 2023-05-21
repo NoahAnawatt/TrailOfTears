@@ -1,0 +1,41 @@
+{
+    "disease": {
+        "dysentery": {
+            "scope": "random",
+            "damage": 2,
+            "damage_variance": 1,
+            "description": "Dysentery takes your party, causing many of them to fall ill. It spreads wildly and greatly affects the health of your party.",
+            "death_message": "{victim} died of dysentery."
+        },
+        "whooping cough": {
+            "scope": "local",
+            "damage": 3,
+            "damage_variance": 0,
+            "description": "A whooping cough overcomes {victim}.",
+            "death_message": "{victim} did not recover from whooping cough and died."
+        },
+        "measles": {
+            "scope": "global",
+            "damage": 1,
+            "damage_variance": 3,
+            "description": "Several of your part members aquire measles. It quickly spreads to everyone.",
+            "death_message": "{victim} died from measles."
+        }
+    },
+    "violence": {
+        "soldier": {
+            "scope": "local",
+            "damage": 5,
+            "damage_variance": 2,
+            "description": "{victim} falls behind from the group. An angry soldier shoots at him to incenitize faster movement.",
+            "death_message": "{victim} was killed by a soldier for being too slow."
+        },
+        "bears": {
+            "scope": "local",
+            "damage": 3,
+            "damage_variance": 1,
+            "description": "{victim}'s food attracts a hungry bear. The bear attacks {victim}",
+            "death_message": "{victim} was mauled by an angry brown bear."
+        }
+    }
+}   
