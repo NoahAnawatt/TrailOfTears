@@ -4,7 +4,7 @@ import random
 
 def game_func(trials):
     print('Press SPACE to shoot small game when the arrow changes to >>-<<.')
-    target_line = "====>"
+    target_line = "---->"
     target_position = 0
     terminal_width = 80
     attempts = 0

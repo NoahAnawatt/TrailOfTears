@@ -64,9 +64,10 @@ def interpet_calamity(party,event,event_name):
     if event["scope"] == 'global':
         for party_member in party.getMembers():
             party_member.damage(random.randint(de_min,de_max))
-            print(event['description'].format(victim=partied_member.name))
+            print(event['description'].format(victim=party_member.name))
     sleep(5)
     party.purge(event)
 
 if __name__ == '__main__':
     print(get_calamity())
+
